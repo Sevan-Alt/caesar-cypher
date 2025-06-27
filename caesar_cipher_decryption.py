@@ -5,7 +5,7 @@ numbers_tl = {0:'a',1:'b',2:'c',3:'d',4:'e',5:'f',6:'g',7:'h',8:'i',9:'j',10:'k'
 input_message = []
 numbered_input = []
 
-user_input = input("what would you like to decryp? ")
+user_input = input("what would you like to decrypt? ")
 
 for letter in user_input : 
     if letter.lower() in letters_tn :
@@ -31,5 +31,4 @@ rank_to_letter = {
 
 
 # do a for loop that uses the highest frequency number and goes though the rank_to_letter to recreate the scentence then maybe have something check if the work is a real word
-for num in sorted_num_freq : 
-    
+# for num in sorted_num_freq :
